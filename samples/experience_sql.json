@@ -1,0 +1,33 @@
+{
+  "scope": "sandbox-sql-demo",
+  "kind": "bug",
+  "sig": "php:sql:interpolated_variable",
+  "obs": [
+    "LANG:PHP",
+    "SINK:PDO_QUERY",
+    "FLOW:PARAM_TO_QUERY"
+  ],
+  "actions": [
+    "AST:SOURCE_INSPECTION",
+    "API:BLIND_EVAL"
+  ],
+  "outcomes": [
+    "DETECTED:CWE89",
+    "LINE:3"
+  ],
+  "corrections": [
+    "FIX:PREPARED_STATEMENT"
+  ],
+  "tags": [
+    "php",
+    "sql",
+    "injection",
+    "pdo"
+  ],
+  "evidence": [
+    {
+      "path": "/workspace/alewo/samples/fixtures/one_case_sql.php",
+      "sha256": "20ccf91d1d644f859349af3540054814d30a91c296a26ee3204c1a814380f692"
+    }
+  ]
+}

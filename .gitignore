@@ -1,0 +1,13 @@
+/target/
+/data/
+/benchmarks/
+.env
+.env.*
+!.env.example
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+*.log
+*.out
+*.err
+.DS_Store
