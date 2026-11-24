@@ -1,17 +1,10 @@
-<div align="center">
+<p align="center">
+  <img src="assets/banner.svg" alt="Alewo — Independent Rust Coding-Agent Harness and Universal Experience Engine" width="100%" />
+</p>
 
-# Alewo
-
-**An Independent Rust Coding-Agent Harness & Universal Experience Engine**
-
-*Evidence-led investigation, durable binary episodic memory, polyglot Tree-sitter analysis, two-agent skeptical deliberation, and sandboxed differential verification — built in pure Rust with zero hardcoded vulnerability scanners.*
-
-[![Rust](https://img.shields.io/badge/Rust-Edition_2021-orange?logo=rust)](https://www.rust-lang.org/)
-[![Modules](https://img.shields.io/badge/Modules-25_Rust_Files-blue)](#architecture)
-[![Tree-sitter](https://img.shields.io/badge/Polyglot_AST-19_Languages-green)](#polyglot-code-intelligence)
-[![License: MIT](https://img.shields.io/badge/License-MIT-lightgrey.svg)](LICENSE)
-
-</div>
+<p align="center">
+  <em>Evidence-led investigation, durable binary episodic memory, polyglot Tree-sitter analysis, two-agent skeptical deliberation, and sandboxed differential verification — built in pure Rust with zero hardcoded vulnerability scanners.</em>
+</p>
 
 ---
 
